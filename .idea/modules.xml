@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.gatling-http_7688-build.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.gatling-http_7688-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-http/gatling-http_7688.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.myhttpservice-build.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.myhttpservice-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gatling-webtours/myhttpservice.test.iml" />
     </modules>
   </component>
 </project>

@@ -77,7 +77,7 @@
 
     <logger name="io.gatling.http.engine.response.DefaultStatsProcessor" level="DEBUG"/>
 
-    <root level="${ROOT_LOGGING_LEVEL:-ERROR}">
+    <root level="${ROOT_LOGGING_LEVEL:-TRACE}">
         <if condition='property("CONSOLE_LOGGING").contains("ON")'>
             <then>
                 <appender-ref ref="CONSOLE"/>

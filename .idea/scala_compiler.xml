@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="gatling-http_7688,gatling-http_7688.main,gatling-http_7688.test" />
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="gatling-http_7688,gatling-http_7688.main,gatling-http_7688.test,myhttpservice" />
+    <profile name="sbt 2" modules="myhttpservice.main,myhttpservice.test">
+      <option name="postfixOps" value="true" />
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xfatal-warnings" />
+      </parameters>
+    </profile>
   </component>
 </project>

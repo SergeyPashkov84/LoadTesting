@@ -9,11 +9,14 @@ class MaxPerformance extends Simulation with Annotations {
 val stagesNumber = 20
 val intensity = 1.666
 val testDuration = 7200
+val stageDuration = 600
+val rampDuration = 60
+
 
   setUp(
     CommonScenario().inject(
       // Интенсивность на ступень
-      incrementUsersPerSec((intensity / stagesNumber).toInt)
+      incrementUsersPerSec(intensity / stagesNumber)
         // Количество ступеней
         .times(stagesNumber)
         // Длительность полки
