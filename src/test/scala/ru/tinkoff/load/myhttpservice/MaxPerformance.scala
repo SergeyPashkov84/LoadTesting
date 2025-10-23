@@ -7,7 +7,7 @@ import ru.tinkoff.load.myhttpservice.scenarios.CommonScenario
 
 class MaxPerformance extends Simulation with Annotations {
 val stagesNumber = 20
-val intensity = 1.666
+val intensity = 3.332
 val testDuration = 7200
 val stageDuration = 600
 val rampDuration = 60

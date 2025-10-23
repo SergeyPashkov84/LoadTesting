@@ -1,0 +1,10 @@
+{
+  "simulation": "ru.tinkoff.load.myhttpservice.Stability",
+  "simulationId": "stability",
+  "start": 1761227761395,
+  "description": "",
+  "scenarios": ["CommonScenario"],
+  "assertions": [
+
+  ]
+}
