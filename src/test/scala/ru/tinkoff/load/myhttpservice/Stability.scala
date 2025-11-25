@@ -7,10 +7,10 @@ import ru.tinkoff.load.myhttpservice.scenarios.CommonScenario
 
 class Stability extends Simulation with Annotations {
   val rampDuration = 120
-  val stageDuration = 3600
-  //80% от интенсивности 7-й ступени maxperf
-  val intensity = (3.332/20)*7*0.8
-  val testDuration = 4000
+  val stageDuration = 3600*3
+  //80% от интенсивности 5-й ступени maxperf
+  val intensity = (3.332/20)*5*0.8
+  val testDuration = stageDuration+200
 
   setUp(
     CommonScenario().inject(

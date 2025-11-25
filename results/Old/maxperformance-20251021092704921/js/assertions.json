@@ -1,0 +1,10 @@
+{
+  "simulation": "ru.tinkoff.load.myhttpservice.MaxPerformance",
+  "simulationId": "maxperformance",
+  "start": 1761038824921,
+  "description": "",
+  "scenarios": ["CommonScenario"],
+  "assertions": [
+
+  ]
+}
